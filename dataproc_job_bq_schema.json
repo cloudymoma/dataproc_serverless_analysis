@@ -1,0 +1,284 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "state",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "acceleratorType",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "goog-dataproc-location",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "run_time",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "elapsed_time",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "creator",
+    "type": "STRING"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_adb_executorDiskSize",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_sql_parquet_columnarReaderBatchSize",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_sql_files_maxPartitionBytes",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_shuffle_io_connectionTimeout",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_sql_autoBroadcastJoinThreshold",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_sql_parquet_binaryAsString",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_shuffle_io_retryWait",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_shuffle_io_maxRetries",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_shuffle_file_buffer",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_reducer_maxSizeInFlight",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_files_overwrite",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_excludeOnFailure_killExcludedExecutors",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_excludeOnFailure_enabled",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_excludeOnFailure_application_maxFailedTasksPerExecutor",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_dynamicAllocation_executorAllocationRatio",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_sql_shuffle_partitions",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_sql_execution",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_default_parallelism",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_network_timeout",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_dataproc_appContext_enabled",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_executor_memory",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_app_name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_dataproc_driver_disk_tier",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_executor_cores",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_dynamicAllocation_enabled",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_dataproc_driver_compute_tier",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_dataproc_executor_compute_tier",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_dataproc_executor_disk_tier",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_driver_memory",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_dataproc_enableNativeExecution",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_sql_parquet_aggregatePushdown",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_dataproc_executor_disk_size",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_driver_maxResultSize",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_hadoop_hive_deserialize_json_strictMode_enable",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_eventLog_enabled",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_dataproc_driver_disk_size",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_executor_heartbeatInterval",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_driver_memoryOverhead",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_executor_instances",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_sql_orc_columnarReaderBatchSize",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_excludeOnFailure_application_fetchFailure_enabled",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_dataproc_scaling_version",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_driver_cores",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_sql_legacy_timeParserPolicy",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "spark_spark_executor_memoryOverhead",
+        "type": "STRING"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "properties",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "shuffleStorageGbSeconds",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "milliDcuSeconds",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "createTime",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "batchType",
+    "type": "STRING"
+  }
+]
